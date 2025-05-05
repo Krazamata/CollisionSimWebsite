@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Collision Simulator</title>
+      
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+      
+        <!-- CSS Stylesheets -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+      
+       
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+      
+        <!-- Bootstrap Scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      </head>
+      
+      <body background= "images/galaxy.png">
+       
+
+        <section class="colored-section" id="title">
+      
+          <div class="container-fluid">
+           
+            <!-- Nav Bar -->
+      
+            <nav class="navbar navbar-expand-lg navbar-dark">
+      
+              <a class="navbar-brand" href="">Website</a>
+      
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#simulator">Simulator</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">Copyright</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </nav>
+      
+      
+            <!-- Title -->
+      
+            <div class="row">
+      
+              <div class="col-lg-6">
+               
+              </div>
+      
+            </div>
+      
+          </div>
+      
+        </section>
+      
+      
+        <!-- Features -->
+      
+        <section class="white-section" id="features">
+      
+          <div class="container-fluid">
+      
+            <div class="row">
+              <div class="feature-box col-lg-4">
+                <h3 class="feature-title">SIL website</h3>
+                <p>Website coded by Randomperson707</p>
+              </div>
+      
+              <div class="feature-box col-lg-4">
+                <h3 class="feature-title">Simulator down below</h3>
+                <p>Refresh to change</p>
+              </div>
+      
+              <div class="feature-box col-lg-4">
+                <h3 class="feature-title">Physics Simulator Code by</h3>
+                <p><a href="https://www.youtube.com/@danielstuts3129/featured">danielstut</a>.</p> 
+              </div>
+            </div>
+      
+      
+          </div>
+        </section>
+   
+      
+      
+        <!-- Pricing -->
+      
+        <section id="simulator">
+      
+          <h2 class="section-heading">Simulator forces</h2>
+          <p>move ball with wasd</p>
+          <p>m = mass e = elasticity(bounciness)</p>
+          <p>ball properties are random refresh to change</p>
+          <div class="row">
+
+            
+      
+            <canvas id="canvas" tabindex = 0 width="640" height = "480"></canvas>
+            
+      
+      
+      
+          </div>
+      
+        </section>
+      
+      
+      
+      
+        <!-- Footer -->
+      
+        <footer class="white-section" id="footer">
+          <div class="container-fluid">
+            <p>© Copyright 2023 Randomperson707</p>
+          </div>
+        </footer>
+      <script src ="index.js"></script>
+  </body>      
+</html>
