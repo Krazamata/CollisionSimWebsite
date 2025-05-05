@@ -20,16 +20,16 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       </head>
       
-      <body background= "images/galaxy.png">
+      <body background= "images/galaxy.png" class="bg-stars">
        
 
-        <section class="colored-section" id="title">
+        <section class="colored-section reveal" id="title">
       
           <div class="container-fluid">
            
             <!-- Nav Bar -->
       
-            <nav class="navbar navbar-expand-lg navbar-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark sticky-nav">
       
               <a class="navbar-brand" href="">Website</a>
       
@@ -69,7 +69,7 @@
       
         <!-- Features -->
       
-        <section class="white-section" id="features">
+        <section class="white-section reveal" id="features">
       
           <div class="container-fluid">
       
@@ -86,7 +86,7 @@
       
               <div class="feature-box col-lg-4">
                 <h3 class="feature-title">Physics Simulator Code by</h3>
-                <p><a href="https://www.youtube.com/@danielstuts3129/featured">danielstut</a>.</p> 
+                <p><a href="https://www.youtube.com/@danielstuts3129/featured">danielstut</a></p> 
               </div>
             </div>
       
@@ -98,7 +98,7 @@
       
         <!-- Pricing -->
       
-        <section id="simulator">
+        <section id="simulator" class="reveal" >
       
           <h2 class="section-heading">Simulator forces</h2>
           <p>move ball with wasd</p>
@@ -122,11 +122,13 @@
       
         <!-- Footer -->
       
-        <footer class="white-section" id="footer">
+        <footer class="white-section reveal" id="footer">
           <div class="container-fluid">
             <p>© Copyright 2023 Randomperson707</p>
           </div>
         </footer>
+
+      <script src="scrollReveal.js"></script>
       <script src ="index.js"></script>
   </body>      
 </html>

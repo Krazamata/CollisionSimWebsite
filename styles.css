@@ -1,3 +1,29 @@
+/* ---------- global ---------- */
+html { scroll-behavior:smooth; }          /* nice anchor scrolling */
+.bg-stars {
+  background: url('images/galaxy.png') fixed center/cover;
+}
+
+/* ---------- sticky nav ---------- */
+/* === make nav truly persistent === */
+
+
+/* ---------- reveal‑on‑scroll ---------- */
+.reveal{
+  opacity:0;
+  transform:translateY(40px);
+  transition:opacity 1.2s ease-out,      /* ← was .6s */
+             transform 1.2s ease-out;
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------- optional eye‑candy ---------- */
+#canvas { box-shadow:0 4px 20px rgba(0,0,0,.6); }
+
+
 body {
     font-family: "Montserrat";
     text-align: center;
